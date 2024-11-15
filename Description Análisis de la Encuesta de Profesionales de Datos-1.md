@@ -45,28 +45,3 @@ La base de datos utilizada proviene de un archivo Excel generado a partir de una
 
 5) Conclusiones:
 Este panel interactivo ofrece una visión detallada de las dinámicas laborales en el sector de los datos, proporcionando una comparación clara de salarios, preferencias tecnológicas y niveles de satisfacción en relación con la vida laboral. El análisis es útil tanto para profesionales como para empleadores interesados en las tendencias del sector.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### PASOS
-
-1) Eliminación de columnas innecesarias:(Browser, OS, City, Country y Referrer)
-2) División de columnas por delimitador para poder limpiar los multiples roles dentro de la categoría "Other" de la columna "Q1 - Which Title Best Fits your Current Role?.1". Se dividen las columnas y se elimina la segunda.
-3) División de columnas por delimitador para poder limpiar los multiples roles dentro de la categoría "Other" de la columna "Q5 - Favorite Programming Language". Se dividen las columnas y se elimina la segunda.
-4) Modificación de la columna "Q3 - Current Yearly Salary (in USD)  Dividimos la columna, con la opción "De dígito a no dígito" y luego eliminamos las columnas que no nos sean útiles. La columna que contiene el límite superior del rango de salario la limpiamos con la opción "reemplazar valores". Una vez que logramos tener solo los números de los rangos salariales, les cambiamos el tipo de dato para poder realizar operaciones matemáticas con esos números. Finalmente, creamos una columna personalizada que sea el promedio de los rangos salariales obtenidos y eliminando las columnas en desuso.
-5) División de columnas por delimitador para poder limpiar los múltiples roles dentro de la categoría "Other" de la columna "Q11 - Which Country do you live in?.1". Se dividen las columnas y se elimina la segunda.
-6) División de columnas por delimitador para poder limpiar los múltiples roles dentro de la categoría "Other" de la columna "Q4 - What Industry do you work in?.1". Se dividen las columnas y se elimina la segunda.
-7) Creación de tarjetas "Count of Survery Takers" y "Average of Survey Takers".
